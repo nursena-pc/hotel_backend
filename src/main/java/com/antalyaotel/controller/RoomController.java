@@ -77,4 +77,3 @@ public class RoomController {
         return roomService.getFilteredRooms(priceMin, priceMax, type, available, sortBy, sortOrder);
     }
 }
-

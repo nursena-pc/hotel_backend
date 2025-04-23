@@ -45,6 +45,11 @@ public class SecurityConfig {
                         .requestMatchers("/api/login").permitAll()
                         .requestMatchers("/send-email").permitAll()
                         .requestMatchers("/sms/send").permitAll()
+                        .requestMatchers("/api/chatbot/message").permitAll()
+                        .requestMatchers("/api/tts").permitAll()
+                         .requestMatchers("/api/stt/convert").permitAll()
+                        .requestMatchers("/api/dialogflow").permitAll() // <-- BURASI!
+
                         .requestMatchers(HttpMethod.PUT, "/api/admin/reservations/**").hasAuthority("ROLE_ADMIN")
                         .anyRequest().authenticated()
                 )

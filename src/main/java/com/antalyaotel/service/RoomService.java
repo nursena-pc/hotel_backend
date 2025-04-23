@@ -18,9 +18,9 @@ public class RoomService {
     private final RoomRepository roomRepository;
 
     public Room createRoom(Room room){
-    if (room.getType() == null) {
-        throw new IllegalArgumentException("Room type cannot be null");
-    }
+        if (room.getType() == null) {
+            throw new IllegalArgumentException("Room type cannot be null");
+        }
         return roomRepository.save(room);
     }
     public Room updateRoom(Room room) {
@@ -59,4 +59,3 @@ public class RoomService {
 
 
 }
-

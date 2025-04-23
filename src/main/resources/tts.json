@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "otel-454417",
+  "private_key_id": "e12b9462b33966e1fb817e057ef2b67a509c6cf3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDtGZrPXOabYOb0\nnEwz/hnb0a2CCNhR1ufYiRIOoQyR/2fW6Ee+TjJh+VT4QJuq5ld9eMikkUJOpZEg\nfP/Gy7Xmj28TAzdY3BPN5sPcrm7V8BVvk2h/kgA83r3RgXJOciOb1FBFFgDi9EXJ\nYJvUF5vD9QAk2ykgECV0sGoZ12RY03+y8gUH6JPmUXLPGiGNk5nf6RR+dL7l2ZHO\ncYqXWDYTEPq05kdaB2SBY7b+JavRbPQ+b53grXWcJAkG+RigLQHB3nLQypAHTy4d\nUu4NhkaYaHVhVNaixUAlLgNrdwWkBBubNFdXLJbbh3M+xFQRko+PejDw/44KTkiA\nViHQ14tbAgMBAAECggEAbRbmUTlbyyrLKMnPD+7+Y9L2A4nhScpY0xrCCaQU3gnG\n86zc8ZUV/lkTPMOxO/EOWScdHgbNnNT10J5iqstorqPZBcTpjsN3gzmFbYB+c4Wq\nvzLyFhwNavRLHt1xw+ElPBn0Ms08bC/a+hwupmeUXhVYUxzZL6zuJuHSd4BQZcNL\nW4YB2d78rTHtlIcubV7PNCf9PeKxzuPUsEBbqJHTz6roO+z4Psjd1XszkFXTc9oy\n6dzPlIAB3VSE5tT0g4NycFGm69rcWFP0JHis8+BoFTD3UEQQ/ZIZ1k031kLXfC2a\n3w/tOGDyALTh/zoAQcd+akYC41GDTYpUr3uR20lYRQKBgQD3sRLC1OkSqw6r/O/E\nbAQP1CiaP2C7+PPG/x6rb+Xj93J4YZR0nTsl3OS7TL8LhEKAsbTvKvftkILr/v59\nA7c+k+o/CiOyVgUw7VP4gZmKZbqRg4TaMpWwjzcIG+nIwdTN98SEUDVZVwfqW3vJ\n9XpBM+wyr13N7vZdBGMxBjLtdQKBgQD1DZSwTSpQj8bfcBIvWVH/5yRNdGzJ4Y3P\nkEGTBYZ7IqWexbPFB0Utj+ukBHz4GSAwZxMcA7jUteY+oH8xC9ob71GnGBn5eV8+\nY/fmhN7vZ2fDd5DATZsNXUkojszGK0/MRJxUh4ohEzxI1+grvOq3y6w9xmOezxpi\nGRptrvFrjwKBgEtkTn2XKMpR3sli1+hFqIbY4PLyT5Nnl2v+w2sTSDo3W1Rg/zrv\nkM1ZixWnqo7q1wMtFBGoVoas8ey7VOLgeqpFg4tknrDtle7qjiCZ8g46IKuiCJIR\ny5ZOQUXqmSJOPWPkAqDzeQmUgAhJiEhUu72U/FQBJOBF2B8/8qE9bcrxAoGBAI0j\nX0oTh5WS2aYDNFYVCcdr51q8/ZNg135+xWXaPtRY5i8GCz4lq9BMHhn/g8KZJhL6\nquTtt9y7T3sukVM8UkjYk5y7ouou345doYAhcw1L71WDXdmEWRNfcS1s4cAZXgJ2\nWdvNnN7j50rFH7FhQ4bMRc3mn6Xt/nIVp0UZB289AoGBAMReI5kVbnWWYPlujKK+\nKQ4viUsLauVmSusUBVrIwrsTKQiPfEYPmGHZTNf2mciv9WUB/9DXNujlPBLUEzi7\nSqosAH6XRYl2iob2UBVK4TDrSglu+A55G8rmnNViIO1lJRKB1ex1iGCwE9te4Su5\nZenBFhx5QXuf+6T1W3dtDNeL\n-----END PRIVATE KEY-----\n",
+  "client_email": "servis@otel-454417.iam.gserviceaccount.com",
+  "client_id": "113456159655523235014",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/servis%40otel-454417.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

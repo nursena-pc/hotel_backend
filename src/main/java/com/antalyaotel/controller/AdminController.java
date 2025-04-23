@@ -18,5 +18,3 @@ public class AdminController {
         return "Admin Dashboard";
     }
 }
-
-

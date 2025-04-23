@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "otel-agent-wckq",
+  "private_key_id": "d1eaaaa0c29ebfb6a34600dbc7f6c884ddf89e0f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCNsQoh9xnQ60FR\nx35PdmlYDuHfCMNNcYgNuw5FgIGvLGO/kAq3ZzMt0DDUNrgDZdrh2c9QNzmslD0W\n+qDpNHBEber0Y9oI+7NhnwIiDQs2qyxtT2aedd1tKEZPLOr7DiHq6fFytEHfdfrF\nFRDCqwQdXFJh2z8WfCcwifp3hECdXOGVfG/H0SydZh6XeGPbRvFrgn4ROqm25MBK\nhcMLSWiIx4C5vvj9TaKU+A4U7sQSU+bl9padC5j09TMZGafRwdD8nz9p2TA1rtw+\naRlJPTrqByjueq51pWDXGMK/CrIdfabGCsYrHRW6fmLtDsB+tS97lWQsatzFUf4O\nvFg3ykpVAgMBAAECggEAA6y6b14k55Rvgke0Mc91Qpo2NO5HSPp/ejSK+hqLNMOD\na3d4oWSxif7PgoaZM32k8Nh+qsGqMLgpWUsJ7873vkYDXlSVnzWp7KL35l8/lnPX\niCk3+ZIselnLJ5ZOY6ysVbuYSbfPk6+9qL+g7y+J5WMu0jY9sjrEtiPgznTsORP0\n9jq083RLS1S2kZxO9WvaCUUp+t/4I7yBhAD0MyFdINmjegrN2hgub4vrn/G0sXF8\nmOYiGd0gSwJ9i0L6knkvK1tEya5PMRuZVC0sdHbYGWgMuoFyX/Fv5pVcPQOOfptU\n5NOByEjPV10pLL846VUef2X1JmjcHiadAqaqX6EqeQKBgQDD0wzFGUVQsGzjXTtT\n1cTP64V4oC9gLn+RKA27ASzlKJ3OY1H/iqkBgmPf2t9wYI5mZ17SEI6qWVt0VLXw\n6lEDCYiOnKfz8AIR0Q2Urt4ori/dSh/O9kw3PBKnh1ZXXkHcYbDIt4qim1P6sFNn\nHHAnVgE36pKbJ+UEt9m9IM+3zQKBgQC5O4MTEpVdQnwuSO0O/IQZxJMrgm0rduxe\nIYg4DVGM7Hh2hVqyH+Pr22plcr6Beb9MjIiAbs3HY6x3pLrLxCyBVVOzcIWCLnqu\nvJ0hIdadGi7ATW2YK42UQre/d8pgIkNprBvCG4yyUoJucqsJhDfmY8/PUH2hHBYf\n4mTx2rXEqQKBgFDpeGJMMcbITwWW9TeLoVmj4C9aSJj+PXl1yk6Vir5ZDPNFOJFU\n8sYL4UaSgjZFvzDyz0wOyVP7vf0QL2kO+FA/9Suv8PmrFr/T2D+yDVtTtbVCtmfm\nftFnwfF0yykoaiAsQUZ+CAtuEMIJbzywlGq8b55yDweK8WcErDQoRYuVAoGAVQr+\ntd39V5DzxKhUtmG3IMGAtCQwjRkPknQgv2NWArZ65Cd7qXY8xYe6hJM25ekIrFOF\nRDobHiUkBNZLsMwDhumvAR5zHX7LcrhEB/cqOnzP5BhobcnpOZ2cETslXhe9DaIo\nKGlPonuBSMY6wqbCp3NB8LPKyhJEEiV2JRg+BekCgYEAjEL0Uj+7WR4EfIYG0kVf\nVLCqFMi0aXjiBFUbgYLF01k+9H8mVyYv5CBerFQ97AFA+B14dYeR+d1PZ6xWnQ3g\nITyjee74dmpO7mqtSiLRGOhNWWUNTOKwyKJLAWkrfkNj5VVcE1Ehh4CUZf9Y4PgI\ntLBRghmB0ZNoLXTZcPliXTE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-otel@otel-agent-wckq.iam.gserviceaccount.com",
+  "client_id": "107466649100137580360",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-otel%40otel-agent-wckq.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

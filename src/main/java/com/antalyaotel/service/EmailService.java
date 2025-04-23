@@ -21,23 +21,23 @@ public class EmailService {
     }
 
     public void sendEmail(String to, String subject, String text) {
-       try {
-           System.out.println("📨 E-posta gönderme işlemi başlıyor: " + to);
+        try {
+            System.out.println("📨 E-posta gönderme işlemi başlıyor: " + to);
 
 
-           SimpleMailMessage message = new SimpleMailMessage();
-           message.setFrom(fromEmail);
-           message.setTo(to);
-           message.setSubject(subject);
-           message.setText(text);
-           message.setFrom("otelsmtp@gmail.com");
-           mailSender.send(message);
-           System.out.println("✅ E-posta başarıyla gönderildi: " + to);
-       }catch(Exception e){
-           System.err.println("❌ E-posta gönderme hatası: " + e.getMessage());
-           e.printStackTrace();
-       }
-       }
+            SimpleMailMessage message = new SimpleMailMessage();
+            message.setFrom(fromEmail);
+            message.setTo(to);
+            message.setSubject(subject);
+            message.setText(text);
+            message.setFrom("otelsmtp@gmail.com");
+            mailSender.send(message);
+            System.out.println("✅ E-posta başarıyla gönderildi: " + to);
+        }catch(Exception e){
+            System.err.println("❌ E-posta gönderme hatası: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
     public void sendReservationConfirmation(String to, Reservation reservation) {
         String subject = "Rezervasyon Onayı - " + reservation.getRoom().getId();
         String text = "Sayın " + reservation.getUser().getUsername() + ",\n\n" +
@@ -52,4 +52,3 @@ public class EmailService {
 
 
 }
-
