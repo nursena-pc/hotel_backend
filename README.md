@@ -94,7 +94,6 @@ Bu proje, yapay zeka destekli bir otel rezervasyon ve müşteri destek sistemidi
 
 
 
-<img width="945" height="502" alt="image" src="https://github.com/user-attachments/assets/b5c827f7-6bb2-4d48-94e6-09669d1cc26f" />
 
 <img width="939" height="498" alt="image" src="https://github.com/user-attachments/assets/046ab4e6-693c-4d58-9182-7a9a29a770c4" />
 <img width="945" height="502" alt="image" src="https://github.com/user-attachments/assets/038c9384-acc3-41b0-af6a-842bb0b95883" />
