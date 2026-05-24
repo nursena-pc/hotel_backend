@@ -106,9 +106,9 @@ Reservation information can be integrated with Google Calendar, allowing hotel r
 
 ## Screenshots
 
-| Login & Register | User Home | Admin Home |
+| Register & Login | User Home | Admin Home |
 |---|---|---|
-| <img src="docs/screenshots/login-register.png" width="260"/> | <img src="docs/screenshots/user-home.png" width="260"/> | <img src="docs/screenshots/admin-home.png" width="260"/> |
+| <img src="docs/screenshots/register-login.png" width="260"/> | <img src="docs/screenshots/user-home.png" width="260"/> | <img src="docs/screenshots/admin-home.png" width="260"/> |
 
 | Reservation Creation | Reservation History | Email Notifications |
 |---|---|---|
