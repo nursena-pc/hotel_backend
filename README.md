@@ -1,132 +1,130 @@
-#  Otel Chatbot ve Rezervasyon Sistemi
+# Hotel Chatbot & Reservation Management System
 
-Bu proje, yapay zeka destekli bir otel rezervasyon ve müşteri destek sistemidir. Spring Boot, Google Cloud API'leri, Dialogflow ve OpenAI GPT-3.5 teknolojileri ile entegre çalışacak şekilde geliştirilmiştir.
+> 🇹🇷 Spring Boot tabanlı, yapay zekâ destekli otel rezervasyon ve müşteri destek sistemi. Proje; kullanıcı rezervasyon akışı, chatbot asistanı, admin paneli, e-posta bildirimleri ve Google Calendar entegrasyonunu tek bir sistemde birleştirir.
 
-##  Özellikler
-
-###  Genel Sistem Özellikleri
-- Spring Boot tabanlı RESTful backend altyapısı
-- JWT tabanlı kimlik doğrulama ve role-based yetkilendirme (admin/müşteri)
-- Swagger / OpenAPI ile API dokümantasyonu
-- Global exception handler, logging ve rate limiting
-- CRUD tabanlı rezervasyon, kullanıcı ve takvim API'ları
-- Spring Scheduler ile otomatik rezervasyon hatırlatma işlemleri
-- SMTP üzerinden e-posta bildirimi gönderme
-- MySQL veritabanı kullanımı
-- Google Calendar API ile takvim entegrasyonu
-
-###  Chatbot ve Sesli Asistan Özellikleri
-- **Dialogflow** ile doğal dil işleme (NLU) altyapısı
-- Kullanıcı niyetlerine göre özel yanıt üretme sistemi
-- Google Cloud **Speech-to-Text** ile sesli girdiyi yazıya çevirme
-- Google Cloud **Text-to-Speech** ile sistem yanıtlarını sesli hale getirme
-- **OpenAI GPT-3.5 Turbo API** ile daha esnek ve akıllı yanıtlar üretme
-- Özel soru-cevap sistemi (örneğin: rezervasyon durumu, kahvaltı saatleri, havuz kullanımı)
-
-###  Test ve Geliştirme
-- Ngrok ile lokal backend servislerinin dış dünyaya açılması
-- Gerçek zamanlı chatbot testleri
+A hotel reservation and customer support system that combines reservation management, AI-powered chatbot assistance, role-based authentication, email notifications and Google Calendar integration.
 
 ---
 
-##  Teknolojiler ve Araçlar
+## Project Overview
 
-| Teknoloji | Açıklama |
-|----------|----------|
-| Spring Boot | Java tabanlı backend geliştirme |
-| Dialogflow | NLP destekli chatbot |
-| Google Cloud APIs | Speech-to-Text, Text-to-Speech, Calendar |
-| OpenAI GPT-3.5 | Akıllı cevap üretme |
-| MySQL | Veritabanı |
-| JWT | Kimlik doğrulama |
-| Swagger | API dokümantasyonu |
-| Ngrok | Lokal sunucuyu public olarak yayınlama |
-| SMTP | E-posta bildirim sistemi |
-| Spring Scheduler | Otomatik job planlama |
+This project was developed as a hotel reservation and customer support platform. The system allows users to create reservations, view reservation history and interact with an AI-supported chatbot for hotel-related questions.
+
+The project also includes an admin panel where administrators can manage rooms and reservations. In addition, reservation processes are supported with email notifications and Google Calendar integration.
+
+The chatbot assistant is designed to understand user questions about hotel services such as reservations, breakfast, pool availability and room information. It combines Dialogflow-based intent detection with OpenAI GPT-3.5 integration to provide more flexible responses.
 
 ---
 
-##  Örnek Senaryolar
+## Project Highlights
 
-- “Yarın için çift kişilik oda var mı?” → Chatbot rezervasyon API’sine istek atar.
-- “Kahvaltı saat kaçta başlıyor?” → Özel cevap sistemi üzerinden yanıt döner.
-- “Şu an sesli olarak konuşuyorum, yer ayırtabilir miyim?” → Speech-to-Text + GPT + rezervasyon API entegrasyonu ile işlenir.
-
----
-
-#  giriş ekranları
-<img width="945" height="502" alt="image" src="https://github.com/user-attachments/assets/d06ec033-e67b-43b9-8a40-12aeaa9972be" />
-<img width="943" height="501" alt="image" src="https://github.com/user-attachments/assets/4dc31310-c0d3-47ca-9d9b-2006c36e0d07" />
-
-# kullanıcı giriş ekranı
-<img width="945" height="502" alt="image" src="https://github.com/user-attachments/assets/2210625a-4f79-4742-b390-4fd60e6e1ccc" />
-
-# admin giriş ekranı
-<img width="945" height="502" alt="image" src="https://github.com/user-attachments/assets/7466ea6a-c643-4721-838e-8b5e78aa3ca0" />
-
-# Rezervasyon Oluşturma ve Geçmiş Rezervasyonları Görüntüleme
-<img width="867" height="460" alt="image" src="https://github.com/user-attachments/assets/e4a364b0-b558-42aa-87f2-5e6869cf2e0c" />
-<img width="698" height="371" alt="image" src="https://github.com/user-attachments/assets/88740286-aca3-4034-96ba-1e36992da46f" />
-<img width="945" height="181" alt="image" src="https://github.com/user-attachments/assets/c994875f-e9e1-48b9-912f-74e1c69aebfa" />
-<img width="942" height="186" alt="image" src="https://github.com/user-attachments/assets/f7674a54-eb40-4ea4-a8c0-51e3b33f53e7" />
-<img width="945" height="242" alt="image" src="https://github.com/user-attachments/assets/a0713ac1-8b38-4d07-8ad3-dc81e947a67b" />
-
-# Örnek rezervasyon bilgilendirme e-mail ekranları
-<img width="1136" height="534" alt="image" src="https://github.com/user-attachments/assets/516c8e36-380b-4c5f-90f4-472571996e25" />
-<img width="1131" height="399" alt="image" src="https://github.com/user-attachments/assets/e89cf642-190a-49b9-a802-35bd1288e1f9" />
-<img width="1128" height="332" alt="image" src="https://github.com/user-attachments/assets/0aff8a89-f72d-4fe1-a017-e4ec2539b455" />
-
-
-# Yapay Zeka Robotu
-<img width="938" height="498" alt="image" src="https://github.com/user-attachments/assets/50c4f16e-262a-4d01-ba2b-a875b8fb750c" />
-<img width="346" height="614" alt="image" src="https://github.com/user-attachments/assets/7140cbc7-790a-40c7-8bb1-0285def9c012" />
-<img width="346" height="614" alt="image" src="https://github.com/user-attachments/assets/ff1b7cbf-9468-4c2b-a81f-a79fe73ef4ee" />
-
-# 	      Admin Paneli
+- Hotel room reservation management
+- AI-powered customer support chatbot
+- Dialogflow intent detection
+- OpenAI GPT-3.5 integration
+- Google Cloud Speech-to-Text support
+- Google Cloud Text-to-Speech support
+- JWT-based authentication
+- Role-based authorization for user and admin roles
+- Admin panel for room and reservation management
+- MySQL database integration
+- SMTP-based email notifications
+- Google Calendar API integration
+- Reservation history tracking
+- RESTful API structure with Spring Boot
 
 ---
 
-# admin oda yönetim ekranı
-<img width="951" height="505" alt="image" src="https://github.com/user-attachments/assets/0843c97a-5a5a-40c0-ad1c-4eb250031655" />
-<img width="945" height="276" alt="image" src="https://github.com/user-attachments/assets/adf725d7-c23f-40b5-8c54-150b635b5a46" />
-<img width="939" height="498" alt="image" src="https://github.com/user-attachments/assets/06736375-3bea-457a-94c1-2a70d8440a92" />
+## Main Features
 
+### User Authentication
 
+The system includes user login and registration flows. JWT-based authentication is used to manage secure access, while role-based authorization separates user and admin operations.
 
+### Reservation Management
 
+Users can create reservations by selecting reservation details such as date, room type and guest information. They can also view their reservation history through the user interface.
 
-<img width="939" height="498" alt="image" src="https://github.com/user-attachments/assets/046ab4e6-693c-4d58-9182-7a9a29a770c4" />
-<img width="945" height="502" alt="image" src="https://github.com/user-attachments/assets/038c9384-acc3-41b0-af6a-842bb0b95883" />
-<img width="945" height="502" alt="image" src="https://github.com/user-attachments/assets/fa149826-fa35-4d0d-91ed-0abc74ddc993" />
+### AI Chatbot Assistant
 
+The chatbot assistant helps users with hotel-related questions and reservation support.
 
-# Google Calendar API ile Takvim Entegrasyonu
-<img width="875" height="441" alt="image" src="https://github.com/user-attachments/assets/8c80cb15-d941-4df4-852a-3841a6a0a8be" />
+The assistant supports:
 
+- Hotel service questions
+- Reservation-related questions
+- Breakfast, pool and facility information
+- More flexible responses through OpenAI GPT-3.5 integration
+- Voice input with Google Cloud Speech-to-Text
+- Voice output with Google Cloud Text-to-Speech
 
+### Admin Panel
 
+Administrators can manage hotel rooms and reservations through the admin panel.
 
+Admin features include:
 
+- Adding new rooms
+- Editing existing rooms
+- Managing reservation records
+- Approving or rejecting reservation requests
+- Viewing reservation status
 
+### Email Notifications
 
+The system sends email notifications for reservation-related events.
 
+Notification examples include:
 
+- Reservation created
+- Reservation approved
+- Reservation rejected
 
+### Google Calendar Integration
 
+Reservation information can be integrated with Google Calendar, allowing hotel reservation schedules to be viewed and tracked through calendar events.
 
+---
 
+## Technologies Used
 
+| Technology | Purpose |
+|---|---|
+| Spring Boot | Backend development |
+| Spring Security / JWT | Authentication and authorization |
+| MySQL | Relational database management |
+| Dialogflow | Chatbot intent detection |
+| OpenAI GPT-3.5 | Flexible AI-powered responses |
+| Google Cloud Speech-to-Text | Voice input processing |
+| Google Cloud Text-to-Speech | Voice response generation |
+| SMTP | Email notification system |
+| Google Calendar API | Calendar integration |
+| Swagger / OpenAPI | API documentation |
+| Ngrok | Local webhook testing |
 
+---
 
+## Screenshots
 
+| Login & Register | User Home | Admin Home |
+|---|---|---|
+| <img src="docs/screenshots/login-register.png" width="260"/> | <img src="docs/screenshots/user-home.png" width="260"/> | <img src="docs/screenshots/admin-home.png" width="260"/> |
 
+| Reservation Creation | Reservation History | Email Notifications |
+|---|---|---|
+| <img src="docs/screenshots/reservation-create.png" width="260"/> | <img src="docs/screenshots/reservation-history.png" width="260"/> | <img src="docs/screenshots/email-notifications.png" width="260"/> |
 
+| AI Chatbot | Admin Room Management | Google Calendar Integration |
+|---|---|---|
+| <img src="docs/screenshots/ai-chatbot.png" width="260"/> | <img src="docs/screenshots/admin-room-management.png" width="260"/> | <img src="docs/screenshots/google-calendar.png" width="260"/> |
 
+> Screenshots were captured using demo data.
 
+---
 
+## Suggested Screenshot Files
 
+To make the README display correctly, upload screenshots with the following file names under:
 
-
-
-
-
+```text
+docs/screenshots/
